@@ -501,20 +501,21 @@ h6 {
 }
 
 #hero .container {
-    padding-top: 110px;
+    padding-top: 90px;
 }
 
 @media (max-width: 992px) {
     #hero .container {
-        padding-top: 98px;
+        padding-top: 0 !important;
     }
 }
 
 #hero h1 {
     margin: 0;
-    font-size: 48px;
+    width: 100%;
+    font-size: 78px;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 85px;
     color: #fff;
     font-family: "Poppins", sans-serif;
 }
